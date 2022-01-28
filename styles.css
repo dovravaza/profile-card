@@ -1,0 +1,135 @@
+body {
+  font-family: "Outfit", sans-serif;
+
+  background-image: url(images/bg-pattern-top.svg),
+    url(images/bg-pattern-bottom.svg);
+  background-position: left -50% top 50%, left 150% top -50%;
+  background-repeat: no-repeat, no-repeat;
+  background-color: hsl(189, 81%, 42%);
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  background-color: rgb(255, 255, 255);
+  height: 450px;
+  width: 400px;
+  border-radius: 10px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10%;
+}
+
+img {
+  display: flex;
+  min-width: 100%;
+  min-height: 100%;
+  border-radius: 10% 10% 0% 0%;
+}
+div .avatar {
+  border-radius: 100%;
+  min-width: 10%;
+  min-height: 10%;
+  height: 100px;
+  left: 150px;
+  top: -55px;
+  border: solid 7px white;
+  position: relative;
+}
+
+.info {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+
+  top: -50px;
+  left: 100px;
+  height: 100px;
+  position: relative;
+  width: 200px;
+  background-color: rgb(255, 255, 255);
+}
+
+.city {
+  position: relative;
+  float: right;
+  top: 40px;
+  left: -50px;
+  font-weight: 400;
+  font-size: 15px;
+  color: hsl(0, 0%, 59%);
+}
+
+.info-1 {
+  font-size: 18px;
+  font-weight: 700;
+  color: hsl(0, 0%, 0%);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: relative;
+}
+
+.age {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.line {
+  top: -20px;
+  position: relative;
+}
+
+.stats {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  position: relative;
+  top: -10px;
+}
+
+.followers-1 {
+  position: relative;
+  top: -20px;
+  left: 0px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.followers-2 {
+  position: relative;
+  top: 10px;
+  left: -50px;
+  color: hsl(0, 0%, 59%);
+}
+.likes-1 {
+  position: relative;
+  top: -20px;
+  left: 10px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.likes-2 {
+  position: relative;
+  top: 10px;
+  left: -30px;
+  color: hsl(0, 0%, 59%);
+}
+
+.photos-1 {
+  position: relative;
+  top: -20px;
+  left: 40px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.photos-2 {
+  position: relative;
+  top: 10px;
+  left: 0px;
+  color: hsl(0, 0%, 59%);
+}
